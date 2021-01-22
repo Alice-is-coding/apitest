@@ -1,5 +1,7 @@
 package Model;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.UUID;
 
 
@@ -9,6 +11,7 @@ import java.util.UUID;
  * @author Alice B.
  * @version 22/01/2021
  */
+@Repository
 public class Person {
     /** The id of the object. */
     private final UUID id;
