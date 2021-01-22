@@ -9,6 +9,12 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests class for Person class (src/main/java/Model).
+ *
+ * @author Alice B.
+ * @version 22/01/2021
+ */
 class PersonTests {
 
     @BeforeEach
